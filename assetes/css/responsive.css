@@ -1,0 +1,344 @@
+/*maxwidt 1200px view in 1025px*/
+/*------------1200px----------*/
+@media(max-width:1200px) {
+
+    /* <!-- banner-3 start  --> */
+    .card img {
+        width: 250px;
+        height: 250px;
+    }
+
+    /* <!-- banner-3 end  --> */
+}
+
+/*----------1024 px-----------*/
+/*max width 1024px view in 992px*/
+@media(max-width:1024px) {
+    .header {
+        display: flex;
+        margin: auto;
+    }
+    .nav {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .logo-1 a {
+        font-size: 20px;
+    }
+
+    .menu {
+        padding-left: 0;
+    }
+
+    .menu ul li {
+        display: inline-block;
+        padding: 0 30px;
+    }
+
+    .menu ul li a {
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+   
+
+    /* <!-- banner-4 start  --> */
+    .costomer .detail {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .costomer .name {
+        padding-top: 10px;
+    }
+
+    .costomer p {
+        text-align: justify;
+        padding-top: 5px;
+    }
+
+    /* <!-- banner-4 end  --> */
+}
+
+/*---------------992px---------------*/
+/*max width 992px view in 768px*/
+@media(max-width:992px) {
+            .menu ul li {
+            display: block;
+            padding: 6px 20px;
+        }
+
+        .headerMain {
+            text-align: center;
+        }
+
+        .menu ul {
+            position: fixed;
+            width: 100%;
+            top: 59px;
+            right: 0;
+            background-color: black;
+            padding: 30px 0;
+            display: none;
+        }
+
+        .menu.active ul {
+            display: block;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .burger {
+            display: block;
+        }
+
+        .menu ul {
+            padding: 30px;
+        }
+
+
+    /* header start  */
+    .text-detail h2 {
+        font-size: 70px;
+        letter-spacing: -6px;
+        line-height: 52px;
+    }
+
+    /* header end  */
+    /* banner-2 start  */
+    .card img {
+        width: 200px;
+        height: 200px;
+        border: 10px solid white;
+    }
+    .banner-3 p {
+        padding: 0 40px !important;
+    }
+
+
+    /* banner-2 end  */
+    /* banner-4 start  */
+    .up img {
+        width: 80% !important;
+    }
+
+    .star img {
+        width: 58%;
+        padding-left: 42px;
+    }
+
+    /* banner-4 end  */
+}
+
+/*--------767px -----------*/
+/*max width 767px view in 577px*/
+@media(max-width:767px) {
+
+    /* banner-1 stat  */
+    .banner {
+        text-align: center !important;
+        justify-content: center;
+        flex-direction: column !important;
+    }
+
+    .banner .img {
+        width: 100% !important;
+        ;
+    }
+
+    .banner.img img {
+        width: 100% !important;
+    }
+
+    .banner .text-detail {
+        width: 100% !important;
+    }
+
+    .dot {
+        bottom: -29px;
+        left: 42%;
+    }
+
+    /* banner-1 end  */
+    /* banner-2 start */
+    .card-section {
+        flex-direction: column;
+    }
+
+    .card-text {
+        padding: 0 55px !important;
+    }
+
+    /* banner-2 end */
+    /* banner-3 start  */
+    banner-3 p {
+        padding: 0px 15px !important;
+    }
+
+    banner-3 .img img {
+        height: 149px;
+    }
+
+    /* banner-3 end  */
+    /* banner-4 start */
+    .banner-4 h3 {
+        font-size: 46px;
+    }
+    .banner-4 p {
+        padding: 0 15px !important;
+    }
+    .costomer .card-detail {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-1 {
+        background: #000;
+        width: 90%;
+        margin-top: 20px !important;
+    }
+    .card-1 h4 {
+        font-size: 2.275rem
+    }
+    .card-1 h6{
+        font-size: 1.4rem;
+    }
+    .banner-4 p {
+        padding: 0px 56px !important;
+    }
+    .star{
+        text-align: left;
+        padding: 12px;
+    }
+    .star img {
+        width: 41%;
+    }
+    /* bannerr-4 end  */
+    /* form start  */
+    .form-section .d-flex{
+        flex-direction: column !important;
+    }
+    .form-section .address{
+        width: 100% !important;
+
+    }
+    .form-section .name{
+        width: 100% !important;
+    }
+    /* form end  */
+    /* footer start  */
+    footer .logo{
+        width: 100% !important;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .d-flex{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .data{
+        width: 33% !important;
+        padding: 3px 0px !important;
+    }
+    footer .data ul{
+        padding:0px !important;
+    }
+    /* foote end */
+
+}
+
+/*----------576px-------*/
+/*max width 576px view in 421px*/
+@media(max-width:576px) {
+    /* banner-2 star  */
+    .banner-2 h3 {
+        font-size: 36px;
+    }
+    .banner-2 p {
+        padding: 0px !important; 
+    }
+    .hedding-text {
+        padding: 0 17px;
+    }
+    /* banner-2 emd  */
+    /* banner-3 stat  */
+    .banner-3 h3 {
+        font-size: 36px;
+    }
+    .banner-3 p {
+        padding: 0px !important; 
+    }
+    .banner-3 .img img {
+        height: 200px;
+        width: 50%;
+    }
+    /* banner-3 end  */
+/*    banner-4 start */
+    .banner-4 p {
+    padding: 0px 23px !important;
+/*    banner-4 end */
+}
+    /* footer start  */
+    footer .social-media{
+        width: 100% !important;
+    }
+    footer .data{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    footer .data-1, 
+    .data-2{
+        width: 50% !important;
+    }
+    /* footer end  */
+}
+
+/* ----------420px----------- */
+/*max width 420px view in 375 px*/
+@media(max-width:420px) {
+    .menu ul {
+            padding: 30px;
+        }
+    .banner-3 .img img {
+        height: 200px;
+        width: 100%;
+    }
+}
+/*max width 360px view in 280 px*/
+@media(max-width:360px){
+    .text-detail h2 {
+    font-size: 48px;
+    letter-spacing: -6px;
+    line-height: 36px;
+}
+.text-detail p {
+    font-size: 15px;
+    }
+    .banner-2 {
+    padding: 33px;  
+}
+.banner-2 h3 {
+    font-size: 30px;
+}
+.banner-3 h3 {
+    font-size: 27px;
+}
+.banner-4 h3 {
+    font-size: 31px;
+}
+.card-1 h4 {
+    font-size: 25px !important  ;
+}
+.card-1 h6 {
+    font-size: 18px !important  ;
+}
+footer .data {
+    width: 100% !important;
+}
+
+}
